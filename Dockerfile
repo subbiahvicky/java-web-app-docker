@@ -1,4 +1,4 @@
-FROM tomcat:latest
+FROM tomcat:9.0.69
 # Dummy text to test 
 RUN apt-get update
 RUN apt-get install vim -y

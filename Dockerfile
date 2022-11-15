@@ -1,4 +1,4 @@
-FROM tomcat:9.0.69-jdk11-temurin-focal
+FROM tomcat:8
 # Dummy text to test 
 RUN apt-get update
 RUN apt-get install vim -y

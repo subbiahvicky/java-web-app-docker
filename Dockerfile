@@ -1,4 +1,4 @@
-FROM tomcat:8.5.64
+FROM tomcat:8.5.64-jdk11
 # Dummy text to test 
 RUN apt-get update
 RUN apt-get install vim -y
